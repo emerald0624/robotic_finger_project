@@ -1,1 +1,39 @@
 robotic finger project
+
+
+ROS_catakin :   ROS catakin workspace based / communuication node
+                
+                Sensor communication
+                  force sensor : fabric type array (with MCP3204, MCP3208) 
+                  torque sensor : mini45
+                  Load cell : HX711(amp)
+                
+                Robotic finger control
+                  1R position control
+                  1R force control
+                  3R positoin control
+                
+                Exoskeleton control (work for Hwang)
+                  1R position control
+                  1R force control
+                  
+                Teleoperation control
+                  robot - exoskeleton
+                  force <-> position feedback
+                  position <-> force feedback
+
+CAD :           Robotic figner design
+
+                SEA
+                  SEA design : compact design for robotic finger
+                  SEA test : validate SEA stiffness & capable deflection range
+                  
+                force validation testset
+                  2D force ground truth testset
+                
+                finger design 
+                  3R finger design for tendon routing
+                  1R finger design for 2D force decomposition
+                 
+                
+                
